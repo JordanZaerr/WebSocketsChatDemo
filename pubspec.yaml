@@ -1,0 +1,11 @@
+name: basic_http_server
+author: Jordan Zaerr
+version: 0.0.1
+homepage:
+description: A sample web sockets chat application
+dependencies:
+  browser: any
+  http_server: any
+transformers:
+- $dart2js:
+    minify: true
